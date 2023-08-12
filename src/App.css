@@ -42,9 +42,45 @@ button {
   font-weight: 500;
   border-radius: 3px;
 }
+button:hover {
+  background-color: var(--gray);
+}
 button a {
   color: #fff;
 }
 button a:hover {
   color: #000;
+}
+/* hero section */
+
+.hero-section {
+  padding-top: 60px;
+  display: flex;
+  align-items: center;
+  height: 75vh;
+}
+.hero-section p {
+  font-size: 15px;
+}
+.hero-button {
+  display: flex;
+  gap: 10px;
+}
+.hero-button .category {
+  background-color: #fff;
+  border: 1px solid #000;
+}
+.hero-button .category a {
+  color: #000;
+}
+.hero-button .category:hover {
+  background-color: var(--gray);
+}
+.branding-img {
+  display: flex;
+  gap: 8px;
+}
+.branding-img img {
+  width: 30px;
+  height: auto;
 }
