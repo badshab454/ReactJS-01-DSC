@@ -49,7 +49,8 @@ button a {
   color: #fff;
 }
 button a:hover {
-  color: #000;
+  color: var(--red);
+  transition: 0.3s;
 }
 /* hero section */
 
@@ -73,8 +74,12 @@ button a:hover {
 .hero-button .category a {
   color: #000;
 }
+.hero-button .category a:hover {
+  color: #fff;
+}
 .hero-button .category:hover {
   background-color: var(--gray);
+  transition: 0.3s;
 }
 .branding-img {
   display: flex;
